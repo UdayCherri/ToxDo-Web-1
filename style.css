@@ -5,7 +5,7 @@ body{
 
 .container{
     max-width: 600px;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 20px;
     background-color: white;
     border-radius: 5px;
@@ -20,11 +20,12 @@ h1{
 
 input[type="text"]{
     padding: 12px;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: bold;
     border: 1px solid #ee809d;
     border-radius: 5px;
     width: 80%;
+    height: 20px;
     margin-right: 10px;
     background-color: #ee809d;
     color: white;
@@ -32,7 +33,7 @@ input[type="text"]{
 }
 
 input::placeholder{
-    color: white;
+    color:#ffd1de;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -44,7 +45,7 @@ button{
     padding: 12px;
     background-color: white;
     color: #ee809d;
-    border: none;
+    border:#ee809d solid ;
     cursor: pointer;
     border-radius: 5px;
     font-weight: bold;
@@ -59,6 +60,7 @@ ul{
 button:hover{
     background-color: #4AB076;
     color: white;
+    border:#355E3E solid;
 }
 
 li{

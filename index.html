@@ -5,11 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TOxDO</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: "Teko", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
+    </style>
 </head>
 <body>
     
     <div class="container">
-        <h1>To-Do  List</h1>
+        <h1>To <small>&Cross;</small> Do  List</h1>
         <input type="text" name="" id="Input" placeholder="Enter your TO-DO">
         <button id="Btn">Add</button>
         <ul id="todolist"></ul>
